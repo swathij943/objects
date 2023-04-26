@@ -35,7 +35,7 @@ console.log(raisinAlarm(["🍫", "🍫", "🍫"]));
 //The 'raisinAlarmArray' function takes an array of arrays as input and returns the result. it 1st initalize an empty array as 'result' to store individual results.
 const raisinAlarmArray = function(cookies) {
   let result = [];
-  // Loops through each subarray using a for loop. checking the presence of raisin. If raisin is found it sets raisinFound flag to true and breaks out of loop.
+  // Loops through each subarray using a for loop. checking the presence of raisin. If raisin is found it sets 'raisinFound' flag to true and breaks out of loop.
   for (let i = 0; i<cookies.length; i++){
     let cookie = cookies[i];
     // let raisinFound = false;
@@ -46,7 +46,7 @@ const raisinAlarmArray = function(cookies) {
     //   }
     // }
     // if (raisinFound) {
-      // Finally it pushes the appropriate result string into result based on whethwer a raisin was found
+      // Finally it pushes the appropriate result string into 'result' based on whethwer a raisin was found
     //   result.push("Raisin alert!");
 
     // } else {
