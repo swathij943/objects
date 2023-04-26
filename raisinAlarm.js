@@ -32,7 +32,7 @@ console.log(raisinAlarm(["🍫", "🍫", "🍫"]));
 
 // Stretch exercise see if u can make a new function that supports arrays of arrays. ur function should return an array of responses instead of a single response. u can add new function to your existing raisin.file
 
-//'raisinAlarmArray' function takes an array of arrays as input and returns the result. it 1st initalize an empty array as 'result' to store individual results.
+//The 'raisinAlarmArray' function takes an array of arrays as input and returns the result. it 1st initalize an empty array as 'result' to store individual results.
 const raisinAlarmArray = function(cookies) {
   let result = [];
   // Loops through each subarray using a for loop. checking the presence of raisin. If raisin is found it sets raisinFound flag to true and breaks out of loop.
